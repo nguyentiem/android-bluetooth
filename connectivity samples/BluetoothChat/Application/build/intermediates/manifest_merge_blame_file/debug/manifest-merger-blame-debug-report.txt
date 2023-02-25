@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2014 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.bluetoothchat"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="14"
+23-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml
+25
+26    <uses-permission
+26-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:24:5-27:31
+27        android:name="android.permission.BLUETOOTH_SCAN"
+27-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:25:9-57
+28        android:usesPermissionFlags="neverForLocation" />
+28-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:26:9-55
+29    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+29-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:28:5-76
+29-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:28:22-73
+30    <uses-permission
+30-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:29:5-31:38
+31        android:name="android.permission.BLUETOOTH"
+31-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:30:9-52
+32        android:maxSdkVersion="30" />
+32-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:31:9-35
+33    <uses-permission
+33-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:32:5-34:38
+34        android:name="android.permission.BLUETOOTH_ADMIN"
+34-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:33:9-58
+35        android:maxSdkVersion="30" />
+35-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:34:9-35
+36    <uses-permission
+36-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:35:5-37:38
+37        android:name="android.permission.ACCESS_COARSE_LOCATION"
+37-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:36:9-65
+38        android:maxSdkVersion="30" />
+38-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:37:9-35
+39    <uses-permission
+39-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:38:5-40:38
+40        android:name="android.permission.ACCESS_FINE_LOCATION"
+40-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:39:9-63
+41        android:maxSdkVersion="30" />
+41-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:40:9-35
+42
+43    <application
+43-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:42:5-65:19
+44        android:allowBackup="true"
+44-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:43:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.1.0] C:\Users\nguye\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@drawable/ic_launcher"
+47-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:44:9-45
+48        android:label="@string/app_name"
+48-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:45:9-41
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme" >
+50-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:46:9-40
+51        <activity
+51-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:49:9-57:20
+52            android:name="com.example.android.bluetoothchat.MainActivity"
+52-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:50:13-41
+53            android:configChanges="orientation|keyboardHidden"
+53-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:51:13-63
+54            android:label="@string/app_name" >
+54-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:52:13-45
+55            <intent-filter>
+55-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:53:13-56:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:54:17-69
+56-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:54:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:55:17-77
+58-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:55:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:59:9-63:64
+62            android:name="com.example.android.bluetoothchat.DeviceListActivity"
+62-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:60:13-47
+63            android:configChanges="orientation|keyboardHidden"
+63-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:61:13-63
+64            android:label="@string/select_device"
+64-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:62:13-50
+65            android:theme="@android:style/Theme.Holo.Dialog" />
+65-->C:\Users\nguye\Downloads\connectivity-samples-master\BluetoothChat\Application\src\main\AndroidManifest.xml:63:13-61
+66    </application>
+67
+68</manifest>
